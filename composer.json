@@ -1,0 +1,14 @@
+{
+    "name": "processus/rpcapitest",
+    "description": "testing JSON-RCP 2.0 API",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "FrancisVarga",
+            "email": "github@varga-net.com"
+        }
+    ],
+    "require": {
+
+    }
+}
