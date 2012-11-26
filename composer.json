@@ -9,6 +9,6 @@
         }
     ],
     "require": {
-
+        "processus/rpcclient": "dev-master"
     }
 }

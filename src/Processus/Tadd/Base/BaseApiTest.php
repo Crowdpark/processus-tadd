@@ -6,8 +6,12 @@
  * Time: 15:18
  * To change this template use File | Settings | File Templates.
  */
-namespace Application\Task\Portal\Tests\Api;
-class BaseApiTest extends \Processus\Abstracts\AbstractClass
+namespace Processus\Api;
+
+use Processus\Client\JsonRpc\JsonRpcDataVo;
+use Processus\Client\JsonRpc\Client;
+
+class BaseApiTest
 {
     /**
      * @var \Application\Task\Portal\Tests\BaseTests
@@ -27,13 +31,14 @@ class BaseApiTest extends \Processus\Abstracts\AbstractClass
      */
     public function run($method, $params)
     {
-        $rpcData = new \Processus\Lib\JsonRpc\JsonRpcDataVo();
+        $rpcData = new JsonRpcDataVo();
         $rpcData->setMethod($method)
             ->setRpcId(1)
             ->setParams(array($params));
 
         $gateway = $this->_apiData->getHost() . $this->_apiData->getApi() . $this->_apiData->getGateway();
-        $client  = new \Processus\Lib\JsonRpc\Client();
+        $client  = new Client();
+
         return $client->setGateway($gateway)
             ->sendRpc($rpcData);
     }
