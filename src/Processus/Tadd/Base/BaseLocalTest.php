@@ -6,8 +6,9 @@
  * Time: 15:14
  * To change this template use File | Settings | File Templates.
  */
-namespace Application\Task\Portal\Tests\Live;
-class BaseLocalTest extends \Application\Task\Portal\Tests\BaseTests
+namespace Processus\Tadd\Base;
+
+class BaseLocalTest extends BaseTests
 {
     public function __construct()
     {

@@ -6,10 +6,11 @@
  * Time: 15:18
  * To change this template use File | Settings | File Templates.
  */
-namespace Processus\Api;
+namespace Processus\Tadd\Base;
 
 use Processus\Client\JsonRpc\JsonRpcDataVo;
 use Processus\Client\JsonRpc\Client;
+use Application\Task\Portal\Tests\BaseTests;
 
 class BaseApiTest
 {
@@ -18,7 +19,7 @@ class BaseApiTest
      */
     private $_apiData;
 
-    public function __construct(\Application\Task\Portal\Tests\BaseTests $data)
+    public function __construct(BaseTests $data)
     {
         $this->_apiData = $data;
     }

@@ -6,7 +6,7 @@
  * Time: 13:35
  * To change this template use File | Settings | File Templates.
  */
-namespace Application\Task\Portal\Tests;
+namespace Processus\Tadd\Base;
 
 class BaseTests
 {
