@@ -1,5 +1,5 @@
 {
-    "name": "processus/rpcapitest",
+    "name": "processus/tadd",
     "description": "testing JSON-RCP 2.0 API",
     "minimum-stability": "dev",
     "authors": [

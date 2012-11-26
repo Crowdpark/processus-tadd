@@ -8,27 +8,14 @@
  */
 namespace Processus\Tadd\Base;
 
-class BaseTests
+abstract class BaseTest
 {
 
     protected $_host;
     protected $_api;
     protected $_gateway;
 
-    public function run()
-    {
-        throw new \Exception("not implmented");
-    }
-
-    protected function _getUserById()
-    {
-
-    }
-
-    protected function _getUserList()
-    {
-
-    }
+    abstract public function run();
 
     public function setApi($api)
     {

@@ -10,12 +10,12 @@ namespace Processus\Tadd\Base;
 
 use Processus\Client\JsonRpc\JsonRpcDataVo;
 use Processus\Client\JsonRpc\Client;
-use Application\Task\Portal\Tests\BaseTests;
+use BaseTest;
 
 class BaseApiTest
 {
     /**
-     * @var \Application\Task\Portal\Tests\BaseTests
+     * @var BaseTests
      */
     private $_apiData;
 

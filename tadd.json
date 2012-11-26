@@ -1,0 +1,13 @@
+{
+    "environment": {
+        "cookies": {
+            "facebook": "",
+            "app": ""
+        },
+        "gateway": {
+            "live": "",
+            "mirror": "",
+            "local": ""
+        }
+    }
+}

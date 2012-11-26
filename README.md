@@ -1,4 +1,4 @@
-processus-rpcapitest
+TADD - Teast API Drive Development
 ====================
 
-testing a rpc api via http. support also socket
+Testing your JSON-RPC API.
