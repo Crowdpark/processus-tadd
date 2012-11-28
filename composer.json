@@ -9,6 +9,7 @@
         }
     ],
     "require": {
-        "processus/rpcclient": "dev-master"
+        "processus/rpcclient": "dev-master",
+        "monolog/monolog-crowdpark-module": "dev-master"
     }
 }
